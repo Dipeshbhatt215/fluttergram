@@ -56,7 +56,9 @@ class _CommentScreenState extends State<CommentScreen> {
             decoration: InputDecoration(labelText: 'Write a comment...'),
             onFieldSubmitted: addComment,
           ),
-          trailing: OutlineButton(onPressed: (){addComment(_commentController.text);}, borderSide: BorderSide.none, child: Text("Post"),),
+          trailing: RaisedButton(onPressed: (){addComment(_commentController.text);},
+           //borderSide: BorderSide.none, 
+           child: Text("Post"),),
         ),
       ],
     );

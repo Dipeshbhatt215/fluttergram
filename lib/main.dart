@@ -263,27 +263,27 @@ class _HomePageState extends State<HomePage> {
                 BottomNavigationBarItem(
                     icon: Icon(Icons.home,
                         color: (_page == 0) ? Colors.black : Colors.grey),
-                    title: Container(height: 0.0),
+               //     title: Container(height: 0.0),
                     backgroundColor: Colors.white),
                 BottomNavigationBarItem(
                     icon: Icon(Icons.search,
                         color: (_page == 1) ? Colors.black : Colors.grey),
-                    title: Container(height: 0.0),
+             //       title: Container(height: 0.0),
                     backgroundColor: Colors.white),
                 BottomNavigationBarItem(
                     icon: Icon(Icons.add_circle,
                         color: (_page == 2) ? Colors.black : Colors.grey),
-                    title: Container(height: 0.0),
+               //     title: Container(height: 0.0),
                     backgroundColor: Colors.white),
                 BottomNavigationBarItem(
                     icon: Icon(Icons.star,
                         color: (_page == 3) ? Colors.black : Colors.grey),
-                    title: Container(height: 0.0),
+                 //   title: Container(height: 0.0),
                     backgroundColor: Colors.white),
                 BottomNavigationBarItem(
                     icon: Icon(Icons.person,
                         color: (_page == 4) ? Colors.black : Colors.grey),
-                    title: Container(height: 0.0),
+                 //   title: Container(height: 0.0),
                     backgroundColor: Colors.white),
               ],
               onTap: navigationTapped,
